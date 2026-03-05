@@ -5,7 +5,7 @@ const numeros: number[] = [];
 console.log("Digite 10 numeros inteiros aleatorios: ");
 
 for (let i = 0; i < 10; i++) {
-    let entrada = read.questionInt(`Digite a ${i + 1}a cor: `);
+    let entrada = read.questionInt(`Digite o ${i + 1}numero: `);
     numeros.push(entrada);
 }
 
