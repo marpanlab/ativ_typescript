@@ -1,0 +1,30 @@
+# Dependências do Node
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+package-lock.json
+package.json
+tsconfig.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build/output (caso use depois)
+dist/
+build/
+
+# Cobertura de testes (caso use)
+coverage/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de editor/IDE
+.vscode/
+.idea/
