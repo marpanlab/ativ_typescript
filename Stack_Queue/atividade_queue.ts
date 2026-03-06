@@ -17,13 +17,13 @@ do {
 
 
 switch(opcao) {
-    case 1:
+    case 1: {
         let cliente = rls.question("\n\nDigite o nome:\n");
         queue.enqueue(cliente)
         console.log("Fila:\n")
         queue.printQueue()
         console.log("\nCliente Adicionado!")
-        break
+        break }
     case 2:
         console.log("\n\nLista de Clientes na Fila:\n");
         if(queue.isEmpty()){
@@ -34,7 +34,7 @@ switch(opcao) {
         break
     case 3:
         if(queue.isEmpty()) {
-        console.log("A Fila acabou!")
+        console.log("A Fila está vazia!")
         } else {
         let andou = queue.dequeue();
         console.log("\n\nFila:\n");

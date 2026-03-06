@@ -18,13 +18,13 @@ do {
 
 
 switch(opcao) {
-    case 1:
+    case 1: {
         let livro = rls.question("\n\nDigite o nome:\n");
         stack.push(livro)
         console.log("Pilha:\n")
         stack.printStack()
         console.log("\nLivro Adicionado!")
-        break
+        break }
     case 2:
         console.log("\n\nLista de Livros na Pilha:\n");
         if(stack.isEmpty()){
